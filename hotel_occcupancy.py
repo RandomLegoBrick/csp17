@@ -17,6 +17,11 @@ total_ocupied_rooms = 0
 
 for floor in range(1, floors+1):
 
+    # optional, uncomment following if statement to skip the 13th floor
+
+    # if floor == 13:
+    #     continue
+
     ## get the number of rooms as an integer greater than zero
 
     rooms = -1
